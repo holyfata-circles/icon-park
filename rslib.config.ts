@@ -16,6 +16,7 @@ export default defineConfig({
   ],
   output: {
     target: 'web',
+    externals: ['react', 'react-dom'],
   },
   plugins: [pluginReact()],
 });

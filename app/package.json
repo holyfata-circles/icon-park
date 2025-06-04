@@ -12,6 +12,7 @@
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
+    "@holyfata/icon-park": "file:../",
     "@rspack/cli": "^1.3.13",
     "@rspack/core": "^1.3.13",
     "@rspack/plugin-react-refresh": "^1.4.3",
