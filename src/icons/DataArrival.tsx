@@ -1,10 +1,10 @@
 import React from 'react';
-import dataJSON from '../../output/>data-arrival.ast.json';
-import { SVGNode } from '../build';
+import dataJSON from '../../output/data-arrival.ast.json';
+import { SVGNode, SVGRoot } from '../build';
 
 const DataArrival = () => {
 
-    const astJson = dataJSON;
+    const astJson = dataJSON as unknown as SVGRoot;
 
     const renderNode = (node: SVGNode): React.ReactNode => {
         const { type, attributes, children } = node;

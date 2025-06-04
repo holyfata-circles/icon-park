@@ -18,9 +18,18 @@ const toCamelCase = (str: string): string => {
 const main = () => {
     const outputDir = path.join(__dirname, '..', 'output');
     const iconsDir = path.join(__dirname, 'icons');
-    
-    // 确保icons目录存在
-    if (!existsSync(iconsDir)) {
+
+    // 删除icons目录下的所有文件
+    if (existsSync(iconsDir)) {
+        const files = readdirSync(iconsDir);
+        for (const file of files) {
+            const filePath = path.join(iconsDir, file);
+            if (filePath !== __filename) { // 确保不删除当前脚本文件
+                writeFileSync(filePath, ''); // 清空文件内容
+            }
+        }
+    } else {
+        // 如果目录不存在，则创建目录
         mkdirSync(iconsDir, { recursive: true });
     }
     
