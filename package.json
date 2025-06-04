@@ -1,6 +1,6 @@
 {
   "name": "@holyfata/icon-park",
-  "version": "0.0.1-alpha2",
+  "version": "0.0.1-alpha3",
   "type": "module",
   "publishConfig": {
     "access": "public",
