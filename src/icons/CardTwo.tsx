@@ -32,9 +32,9 @@ const CardTwo = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

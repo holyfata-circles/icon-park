@@ -32,9 +32,9 @@ const Fm = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

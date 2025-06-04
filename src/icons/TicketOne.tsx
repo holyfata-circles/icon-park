@@ -32,9 +32,9 @@ const TicketOne = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

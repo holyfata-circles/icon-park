@@ -32,9 +32,9 @@ const PaymentMethod = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

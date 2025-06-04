@@ -32,9 +32,9 @@ const ChartHistogram = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

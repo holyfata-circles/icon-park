@@ -32,9 +32,9 @@ const Electrocardiogram = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const AlignVerticalCenterTwo = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

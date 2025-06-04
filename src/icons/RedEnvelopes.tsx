@@ -32,9 +32,9 @@ const RedEnvelopes = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

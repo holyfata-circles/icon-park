@@ -32,9 +32,9 @@ const HamburgerOne = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

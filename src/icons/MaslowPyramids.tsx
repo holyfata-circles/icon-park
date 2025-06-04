@@ -32,9 +32,9 @@ const MaslowPyramids = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

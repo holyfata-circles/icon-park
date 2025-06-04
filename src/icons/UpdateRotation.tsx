@@ -32,9 +32,9 @@ const UpdateRotation = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

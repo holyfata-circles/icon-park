@@ -32,9 +32,9 @@ const PeopleMinus = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

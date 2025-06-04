@@ -32,9 +32,9 @@ const SlidingHorizontal = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const AlignTextLeft = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

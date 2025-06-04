@@ -32,9 +32,9 @@ const HandleTriangle = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

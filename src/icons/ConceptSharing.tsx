@@ -32,9 +32,9 @@ const ConceptSharing = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

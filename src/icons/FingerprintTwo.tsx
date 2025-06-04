@@ -32,9 +32,9 @@ const FingerprintTwo = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

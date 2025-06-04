@@ -32,9 +32,9 @@ const PhoneBooth = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

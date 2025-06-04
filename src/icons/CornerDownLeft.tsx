@@ -32,9 +32,9 @@ const CornerDownLeft = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

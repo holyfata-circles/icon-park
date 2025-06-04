@@ -32,9 +32,9 @@ const TreadmillTwo = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

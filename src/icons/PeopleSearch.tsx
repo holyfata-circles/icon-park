@@ -32,9 +32,9 @@ const PeopleSearch = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

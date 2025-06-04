@@ -32,9 +32,9 @@ const LaptopComputer = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

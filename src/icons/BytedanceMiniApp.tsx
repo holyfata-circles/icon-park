@@ -32,9 +32,9 @@ const BytedanceMiniApp = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

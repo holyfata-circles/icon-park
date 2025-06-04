@@ -32,9 +32,9 @@ const StereoPerspective = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

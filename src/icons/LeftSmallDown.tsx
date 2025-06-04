@@ -32,9 +32,9 @@ const LeftSmallDown = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

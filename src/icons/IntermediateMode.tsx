@@ -32,9 +32,9 @@ const IntermediateMode = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

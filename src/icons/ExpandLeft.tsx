@@ -32,9 +32,9 @@ const ExpandLeft = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

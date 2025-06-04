@@ -32,9 +32,9 @@ const DatabaseDownload = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

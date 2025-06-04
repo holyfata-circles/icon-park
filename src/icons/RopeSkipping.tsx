@@ -32,9 +32,9 @@ const RopeSkipping = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const VerticalTimeline = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

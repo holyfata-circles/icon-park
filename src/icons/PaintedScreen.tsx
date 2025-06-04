@@ -32,9 +32,9 @@ const PaintedScreen = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

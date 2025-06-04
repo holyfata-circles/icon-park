@@ -32,9 +32,9 @@ const TowerOfBabel = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

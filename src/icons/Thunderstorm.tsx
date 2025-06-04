@@ -32,9 +32,9 @@ const Thunderstorm = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

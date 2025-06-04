@@ -32,9 +32,9 @@ const OnlineMeeting = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

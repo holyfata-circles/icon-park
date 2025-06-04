@@ -32,9 +32,9 @@ const SwitchThemes = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

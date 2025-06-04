@@ -32,9 +32,9 @@ const SkiingNordic = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

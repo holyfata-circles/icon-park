@@ -32,9 +32,9 @@ const UploadLaptop = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

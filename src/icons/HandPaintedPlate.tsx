@@ -32,9 +32,9 @@ const HandPaintedPlate = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

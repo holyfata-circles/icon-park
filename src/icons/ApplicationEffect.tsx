@@ -32,9 +32,9 @@ const ApplicationEffect = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

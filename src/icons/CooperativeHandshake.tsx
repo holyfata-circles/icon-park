@@ -32,9 +32,9 @@ const CooperativeHandshake = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

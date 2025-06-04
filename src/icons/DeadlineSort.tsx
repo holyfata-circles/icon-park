@@ -32,9 +32,9 @@ const DeadlineSort = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

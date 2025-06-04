@@ -32,9 +32,9 @@ const AnguishedFace = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

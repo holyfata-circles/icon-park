@@ -32,9 +32,9 @@ const LinkInterrupt = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const DistributeVertically = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

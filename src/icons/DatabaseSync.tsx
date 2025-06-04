@@ -32,9 +32,9 @@ const DatabaseSync = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

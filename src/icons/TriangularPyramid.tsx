@@ -32,9 +32,9 @@ const TriangularPyramid = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

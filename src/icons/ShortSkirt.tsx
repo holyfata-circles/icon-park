@@ -32,9 +32,9 @@ const ShortSkirt = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

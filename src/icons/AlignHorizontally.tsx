@@ -32,9 +32,9 @@ const AlignHorizontally = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const TraditionalChineseMedicine = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

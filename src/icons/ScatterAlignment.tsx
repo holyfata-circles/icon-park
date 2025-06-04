@@ -32,9 +32,9 @@ const ScatterAlignment = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

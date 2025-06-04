@@ -32,9 +32,9 @@ const Jinritoutiao = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

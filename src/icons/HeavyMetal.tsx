@@ -32,9 +32,9 @@ const HeavyMetal = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

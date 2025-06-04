@@ -32,9 +32,9 @@ const ArrowCircleUp = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

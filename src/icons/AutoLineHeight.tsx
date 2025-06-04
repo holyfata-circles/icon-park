@@ -32,9 +32,9 @@ const AutoLineHeight = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

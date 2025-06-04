@@ -32,9 +32,9 @@ const ChangeDateSort = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

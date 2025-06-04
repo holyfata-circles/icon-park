@@ -32,9 +32,9 @@ const LevelAdjustment = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

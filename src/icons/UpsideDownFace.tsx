@@ -32,9 +32,9 @@ const UpsideDownFace = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

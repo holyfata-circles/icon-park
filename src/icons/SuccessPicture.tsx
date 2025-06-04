@@ -32,9 +32,9 @@ const SuccessPicture = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const MessageSuccess = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

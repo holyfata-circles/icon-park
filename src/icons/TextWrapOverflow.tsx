@@ -32,9 +32,9 @@ const TextWrapOverflow = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

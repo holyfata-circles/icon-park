@@ -32,9 +32,9 @@ const ChopsticksFork = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

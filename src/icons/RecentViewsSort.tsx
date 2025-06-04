@@ -32,9 +32,9 @@ const RecentViewsSort = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

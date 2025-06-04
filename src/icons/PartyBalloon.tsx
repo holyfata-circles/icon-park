@@ -32,9 +32,9 @@ const PartyBalloon = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

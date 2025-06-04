@@ -32,9 +32,9 @@ const EmotionUnhappy = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

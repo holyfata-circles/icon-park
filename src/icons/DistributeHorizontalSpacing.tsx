@@ -32,9 +32,9 @@ const DistributeHorizontalSpacing = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

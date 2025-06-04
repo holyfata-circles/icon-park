@@ -32,9 +32,9 @@ const DisappointedFace = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

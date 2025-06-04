@@ -32,9 +32,9 @@ const CircleLeftDown = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const BackgroundColor = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

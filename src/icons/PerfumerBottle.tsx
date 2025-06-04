@@ -32,9 +32,9 @@ const PerfumerBottle = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

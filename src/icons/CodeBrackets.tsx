@@ -32,9 +32,9 @@ const CodeBrackets = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

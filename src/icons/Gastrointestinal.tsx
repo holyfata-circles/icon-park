@@ -32,9 +32,9 @@ const Gastrointestinal = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const WeixinFavorites = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

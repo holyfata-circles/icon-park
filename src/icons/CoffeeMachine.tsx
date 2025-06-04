@@ -32,9 +32,9 @@ const CoffeeMachine = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

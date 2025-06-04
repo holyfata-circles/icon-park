@@ -32,9 +32,9 @@ const VerticalTidyUp = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

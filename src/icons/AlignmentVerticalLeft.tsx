@@ -32,9 +32,9 @@ const AlignmentVerticalLeft = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

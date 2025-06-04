@@ -32,9 +32,9 @@ const OpenAnAccount = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

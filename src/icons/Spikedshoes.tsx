@@ -32,9 +32,9 @@ const Spikedshoes = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const PersonalPrivacy = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

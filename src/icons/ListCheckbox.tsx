@@ -32,9 +32,9 @@ const ListCheckbox = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

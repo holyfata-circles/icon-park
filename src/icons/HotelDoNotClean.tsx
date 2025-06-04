@@ -32,9 +32,9 @@ const HotelDoNotClean = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

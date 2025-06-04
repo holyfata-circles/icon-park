@@ -32,9 +32,9 @@ const PhoneVideoCall = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const ReverseOperationIn = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

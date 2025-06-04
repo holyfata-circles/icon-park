@@ -32,9 +32,9 @@ const KitchenKnife = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

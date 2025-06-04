@@ -32,9 +32,9 @@ const BaggageDelay = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

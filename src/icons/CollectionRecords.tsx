@@ -32,9 +32,9 @@ const CollectionRecords = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

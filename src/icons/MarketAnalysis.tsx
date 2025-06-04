@@ -32,9 +32,9 @@ const MarketAnalysis = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

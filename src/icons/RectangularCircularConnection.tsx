@@ -32,9 +32,9 @@ const RectangularCircularConnection = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const WeixinMarket = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

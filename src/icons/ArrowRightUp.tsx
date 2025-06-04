@@ -32,9 +32,9 @@ const ArrowRightUp = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

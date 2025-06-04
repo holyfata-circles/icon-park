@@ -32,9 +32,9 @@ const PanoramaHorizontal = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

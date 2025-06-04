@@ -32,9 +32,9 @@ const InboxSuccessR = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const CirclesSeven = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

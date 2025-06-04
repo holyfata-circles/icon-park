@@ -32,9 +32,9 @@ const VoiceMessage = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

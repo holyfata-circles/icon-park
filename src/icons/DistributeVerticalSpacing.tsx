@@ -32,9 +32,9 @@ const DistributeVerticalSpacing = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const AlignTextBoth = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

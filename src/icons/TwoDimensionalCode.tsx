@@ -32,9 +32,9 @@ const TwoDimensionalCode = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

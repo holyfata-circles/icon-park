@@ -32,9 +32,9 @@ const MicroSlrCamera = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

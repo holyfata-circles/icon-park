@@ -32,9 +32,9 @@ const BatteryWorkingOne = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const VirtualRealityGlasses = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

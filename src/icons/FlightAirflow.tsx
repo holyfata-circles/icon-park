@@ -32,9 +32,9 @@ const FlightAirflow = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

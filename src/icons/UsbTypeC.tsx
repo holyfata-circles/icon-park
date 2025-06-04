@@ -32,9 +32,9 @@ const UsbTypeC = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

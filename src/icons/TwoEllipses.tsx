@@ -32,9 +32,9 @@ const TwoEllipses = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

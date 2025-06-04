@@ -32,9 +32,9 @@ const RelationalGraph = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const RotationHorizontal = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

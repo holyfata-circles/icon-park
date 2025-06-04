@@ -32,9 +32,9 @@ const ThreeSlashes = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

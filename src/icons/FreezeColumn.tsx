@@ -32,9 +32,9 @@ const FreezeColumn = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

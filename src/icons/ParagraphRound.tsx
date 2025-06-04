@@ -32,9 +32,9 @@ const ParagraphRound = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

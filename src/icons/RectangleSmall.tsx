@@ -32,9 +32,9 @@ const RectangleSmall = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

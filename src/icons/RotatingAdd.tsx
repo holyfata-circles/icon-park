@@ -32,9 +32,9 @@ const RotatingAdd = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

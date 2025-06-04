@@ -32,9 +32,9 @@ const NetworkDrive = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

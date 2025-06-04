@@ -32,9 +32,9 @@ const LockingLaptop = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

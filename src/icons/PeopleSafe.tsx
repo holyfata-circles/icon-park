@@ -32,9 +32,9 @@ const PeopleSafe = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

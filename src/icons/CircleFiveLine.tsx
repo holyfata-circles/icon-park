@@ -32,9 +32,9 @@ const CircleFiveLine = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

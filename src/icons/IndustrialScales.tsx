@@ -32,9 +32,9 @@ const IndustrialScales = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

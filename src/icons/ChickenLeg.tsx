@@ -32,9 +32,9 @@ const ChickenLeg = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

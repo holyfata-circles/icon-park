@@ -32,9 +32,9 @@ const SplitTurnDownRight = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

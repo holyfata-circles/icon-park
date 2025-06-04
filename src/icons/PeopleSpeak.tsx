@@ -32,9 +32,9 @@ const PeopleSpeak = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const BeautyInstrument = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

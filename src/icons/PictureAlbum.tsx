@@ -32,9 +32,9 @@ const PictureAlbum = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

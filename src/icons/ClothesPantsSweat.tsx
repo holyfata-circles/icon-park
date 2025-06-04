@@ -32,9 +32,9 @@ const ClothesPantsSweat = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

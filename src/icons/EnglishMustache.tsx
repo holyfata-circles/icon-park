@@ -32,9 +32,9 @@ const EnglishMustache = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

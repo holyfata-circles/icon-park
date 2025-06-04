@@ -32,9 +32,9 @@ const InternalExpansion = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

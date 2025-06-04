@@ -32,9 +32,9 @@ const FacialCleanser = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

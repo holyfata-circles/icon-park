@@ -32,9 +32,9 @@ const EndpointDisplacement = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

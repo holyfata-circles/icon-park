@@ -32,9 +32,9 @@ const DistributeHorizontally = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

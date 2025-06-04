@@ -32,9 +32,9 @@ const CalendarThirtyTwo = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

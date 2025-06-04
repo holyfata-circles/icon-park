@@ -32,9 +32,9 @@ const Huoshanzhibo = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

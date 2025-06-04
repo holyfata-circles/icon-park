@@ -32,9 +32,9 @@ const SolidStateDisk = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

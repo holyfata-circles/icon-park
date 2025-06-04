@@ -32,9 +32,9 @@ const TapeMeasure = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

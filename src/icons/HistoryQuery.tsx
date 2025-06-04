@@ -32,9 +32,9 @@ const HistoryQuery = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

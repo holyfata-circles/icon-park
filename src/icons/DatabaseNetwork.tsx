@@ -32,9 +32,9 @@ const DatabaseNetwork = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

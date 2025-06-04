@@ -32,9 +32,9 @@ const HorizontallyCentered = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const AcceptEmail = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

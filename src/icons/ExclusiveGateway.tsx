@@ -32,9 +32,9 @@ const ExclusiveGateway = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

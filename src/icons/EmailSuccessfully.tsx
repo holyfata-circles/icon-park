@@ -32,9 +32,9 @@ const EmailSuccessfully = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const ExternalTransmission = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

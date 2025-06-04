@@ -32,9 +32,9 @@ const DownloadLaptop = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

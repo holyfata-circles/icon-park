@@ -32,9 +32,9 @@ const ExpressionlessFace = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

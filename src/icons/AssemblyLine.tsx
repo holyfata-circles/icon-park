@@ -32,9 +32,9 @@ const AssemblyLine = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

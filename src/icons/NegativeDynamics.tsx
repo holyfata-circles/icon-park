@@ -32,9 +32,9 @@ const NegativeDynamics = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

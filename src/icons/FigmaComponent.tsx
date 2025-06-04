@@ -32,9 +32,9 @@ const FigmaComponent = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

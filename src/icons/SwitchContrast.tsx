@@ -32,9 +32,9 @@ const SwitchContrast = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

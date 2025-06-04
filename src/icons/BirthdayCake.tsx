@@ -32,9 +32,9 @@ const BirthdayCake = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

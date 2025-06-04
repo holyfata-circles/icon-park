@@ -32,9 +32,9 @@ const BroadcastRadio = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

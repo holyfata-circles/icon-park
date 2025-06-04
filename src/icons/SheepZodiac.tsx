@@ -32,9 +32,9 @@ const SheepZodiac = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const DatabasePosition = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

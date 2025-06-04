@@ -32,9 +32,9 @@ const GrinningFaceWithOpenMouth = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

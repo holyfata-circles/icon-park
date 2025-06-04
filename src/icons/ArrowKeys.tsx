@@ -32,9 +32,9 @@ const ArrowKeys = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const ClothesTurtleneck = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const Zijinyunying = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

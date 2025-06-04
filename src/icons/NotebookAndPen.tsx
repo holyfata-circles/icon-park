@@ -32,9 +32,9 @@ const NotebookAndPen = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

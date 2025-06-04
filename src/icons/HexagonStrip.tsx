@@ -32,9 +32,9 @@ const HexagonStrip = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const AdjacentItem = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

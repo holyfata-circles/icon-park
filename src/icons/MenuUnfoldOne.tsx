@@ -32,9 +32,9 @@ const MenuUnfoldOne = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const FaceWithoutMouth = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

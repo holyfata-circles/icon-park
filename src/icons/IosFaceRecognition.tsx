@@ -32,9 +32,9 @@ const IosFaceRecognition = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

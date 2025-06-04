@@ -32,9 +32,9 @@ const FiveStarBadge = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

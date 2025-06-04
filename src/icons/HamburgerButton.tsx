@@ -32,9 +32,9 @@ const HamburgerButton = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

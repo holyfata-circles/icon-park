@@ -32,9 +32,9 @@ const BeachUmbrella = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

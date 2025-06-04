@@ -6,7 +6,7 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
 	<React.StrictMode>
 		<div>
 			<h1>2</h1>
-			<IconAiming />
+			{new Array(100).map(() => <IconAiming />)}
 		</div>
 	</React.StrictMode>
 );

@@ -32,9 +32,9 @@ const TwoTrianglesTwo = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

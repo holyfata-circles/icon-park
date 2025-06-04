@@ -32,9 +32,9 @@ const CirclesAndTriangles = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

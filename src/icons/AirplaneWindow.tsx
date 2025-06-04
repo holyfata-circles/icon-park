@@ -32,9 +32,9 @@ const AirplaneWindow = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

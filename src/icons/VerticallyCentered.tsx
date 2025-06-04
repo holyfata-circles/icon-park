@@ -32,9 +32,9 @@ const VerticallyCentered = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

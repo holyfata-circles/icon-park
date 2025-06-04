@@ -32,9 +32,9 @@ const VolumeNotice = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

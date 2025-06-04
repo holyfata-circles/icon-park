@@ -32,9 +32,9 @@ const WeixinTopStories = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

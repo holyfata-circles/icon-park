@@ -32,9 +32,9 @@ const PaintedEggshell = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

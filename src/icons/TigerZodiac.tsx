@@ -32,9 +32,9 @@ const TigerZodiac = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const ShieldAdd = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

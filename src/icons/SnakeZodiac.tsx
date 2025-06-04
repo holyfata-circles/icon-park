@@ -32,9 +32,9 @@ const SnakeZodiac = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

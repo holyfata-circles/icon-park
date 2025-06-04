@@ -32,9 +32,9 @@ const EndpointSquare = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

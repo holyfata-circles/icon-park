@@ -32,9 +32,9 @@ const AlignmentRightBottom = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

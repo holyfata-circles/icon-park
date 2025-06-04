@@ -32,9 +32,9 @@ const InternalTransmission = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

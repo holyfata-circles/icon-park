@@ -32,9 +32,9 @@ const SlyFaceWhitSmile = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const RectangularVertebra = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

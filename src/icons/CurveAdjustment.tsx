@@ -32,9 +32,9 @@ const CurveAdjustment = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

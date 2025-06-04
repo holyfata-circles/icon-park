@@ -32,9 +32,9 @@ const OneThirdRotation = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const ElectronicPen = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

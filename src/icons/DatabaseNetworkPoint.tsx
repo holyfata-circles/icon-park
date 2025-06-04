@@ -32,9 +32,9 @@ const DatabaseNetworkPoint = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

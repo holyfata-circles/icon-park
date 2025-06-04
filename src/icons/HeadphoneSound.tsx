@@ -32,9 +32,9 @@ const HeadphoneSound = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

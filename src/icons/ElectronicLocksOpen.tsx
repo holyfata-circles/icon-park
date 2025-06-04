@@ -32,9 +32,9 @@ const ElectronicLocksOpen = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

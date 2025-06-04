@@ -32,9 +32,9 @@ const ParagraphTriangle = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

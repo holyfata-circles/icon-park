@@ -32,9 +32,9 @@ const MedicalFiles = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const GraphicDesign = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

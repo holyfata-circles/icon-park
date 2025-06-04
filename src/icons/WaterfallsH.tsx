@@ -32,9 +32,9 @@ const WaterfallsH = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

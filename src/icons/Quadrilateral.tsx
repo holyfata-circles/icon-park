@@ -32,9 +32,9 @@ const Quadrilateral = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

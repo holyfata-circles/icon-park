@@ -32,9 +32,9 @@ const InvalidFiles = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const InclusiveGateway = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

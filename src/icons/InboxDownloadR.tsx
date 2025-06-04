@@ -32,9 +32,9 @@ const InboxDownloadR = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

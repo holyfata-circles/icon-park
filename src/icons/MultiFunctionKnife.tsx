@@ -32,9 +32,9 @@ const MultiFunctionKnife = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

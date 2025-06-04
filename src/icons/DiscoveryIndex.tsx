@@ -32,9 +32,9 @@ const DiscoveryIndex = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

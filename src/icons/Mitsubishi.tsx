@@ -32,9 +32,9 @@ const Mitsubishi = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const IncreaseTheScale = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

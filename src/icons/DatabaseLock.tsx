@@ -32,9 +32,9 @@ const DatabaseLock = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

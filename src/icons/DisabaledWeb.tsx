@@ -32,9 +32,9 @@ const DisabaledWeb = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

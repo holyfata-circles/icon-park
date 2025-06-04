@@ -32,9 +32,9 @@ const VolumeSmall = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

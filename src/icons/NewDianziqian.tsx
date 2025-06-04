@@ -32,9 +32,9 @@ const NewDianziqian = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

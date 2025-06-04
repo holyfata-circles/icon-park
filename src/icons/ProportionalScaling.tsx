@@ -32,9 +32,9 @@ const ProportionalScaling = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

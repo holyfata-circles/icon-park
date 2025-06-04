@@ -32,9 +32,9 @@ const ShutterPriority = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

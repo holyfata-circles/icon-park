@@ -32,9 +32,9 @@ const ConvergingGateway = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const AlignmentBottomCenter = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

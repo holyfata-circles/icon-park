@@ -32,9 +32,9 @@ const HanfuChineseStyle = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

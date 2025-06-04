@@ -32,9 +32,9 @@ const XiaoduHome = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

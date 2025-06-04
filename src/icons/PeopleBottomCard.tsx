@@ -32,9 +32,9 @@ const PeopleBottomCard = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

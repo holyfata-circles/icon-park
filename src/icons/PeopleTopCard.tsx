@@ -32,9 +32,9 @@ const PeopleTopCard = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

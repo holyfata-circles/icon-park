@@ -32,9 +32,9 @@ const HighHeeledShoes = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

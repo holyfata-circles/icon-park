@@ -32,9 +32,9 @@ const TransactionOrder = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

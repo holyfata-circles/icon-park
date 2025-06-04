@@ -32,9 +32,9 @@ const ExpandTextInput = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

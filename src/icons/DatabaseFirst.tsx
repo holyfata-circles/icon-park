@@ -32,9 +32,9 @@ const DatabaseFirst = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

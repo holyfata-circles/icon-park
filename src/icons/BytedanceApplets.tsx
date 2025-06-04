@@ -32,9 +32,9 @@ const BytedanceApplets = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

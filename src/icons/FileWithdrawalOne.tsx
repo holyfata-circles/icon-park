@@ -32,9 +32,9 @@ const FileWithdrawalOne = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const RectangularCircularSeparation = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

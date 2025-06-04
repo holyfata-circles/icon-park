@@ -32,9 +32,9 @@ const MeasuringCup = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

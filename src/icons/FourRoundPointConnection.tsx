@@ -32,9 +32,9 @@ const FourRoundPointConnection = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

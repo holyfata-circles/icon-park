@@ -32,9 +32,9 @@ const SwitchingDone = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

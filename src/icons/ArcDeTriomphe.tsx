@@ -32,9 +32,9 @@ const ArcDeTriomphe = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

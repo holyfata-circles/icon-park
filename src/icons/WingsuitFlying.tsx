@@ -32,9 +32,9 @@ const WingsuitFlying = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

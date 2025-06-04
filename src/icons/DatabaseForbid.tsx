@@ -32,9 +32,9 @@ const DatabaseForbid = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

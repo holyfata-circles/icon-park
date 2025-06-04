@@ -32,9 +32,9 @@ const TurnOffBluetooth = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

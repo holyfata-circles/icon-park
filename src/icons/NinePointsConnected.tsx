@@ -32,9 +32,9 @@ const NinePointsConnected = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

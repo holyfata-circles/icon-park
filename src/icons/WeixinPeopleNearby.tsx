@@ -32,9 +32,9 @@ const WeixinPeopleNearby = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const MicrowaveOven = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

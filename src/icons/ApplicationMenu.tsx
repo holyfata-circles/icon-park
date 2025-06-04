@@ -32,9 +32,9 @@ const ApplicationMenu = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

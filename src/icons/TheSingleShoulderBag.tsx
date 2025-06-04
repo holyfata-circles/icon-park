@@ -32,9 +32,9 @@ const TheSingleShoulderBag = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

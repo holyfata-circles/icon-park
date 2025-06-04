@@ -32,9 +32,9 @@ const PlasticSurgery = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

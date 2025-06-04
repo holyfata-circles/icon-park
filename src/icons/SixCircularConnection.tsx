@@ -32,9 +32,9 @@ const SixCircularConnection = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

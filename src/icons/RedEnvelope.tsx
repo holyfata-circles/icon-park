@@ -32,9 +32,9 @@ const RedEnvelope = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

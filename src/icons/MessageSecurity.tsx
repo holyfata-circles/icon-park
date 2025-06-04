@@ -32,9 +32,9 @@ const MessageSecurity = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

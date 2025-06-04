@@ -32,9 +32,9 @@ const ConnectionArrow = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

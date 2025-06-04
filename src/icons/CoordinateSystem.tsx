@@ -32,9 +32,9 @@ const CoordinateSystem = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

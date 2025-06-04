@@ -32,9 +32,9 @@ const HorizontalSpacingBetweenItems = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const SmartOptimization = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

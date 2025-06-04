@@ -32,9 +32,9 @@ const InnerShadowBottomLeft = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

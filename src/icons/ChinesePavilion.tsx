@@ -32,9 +32,9 @@ const ChinesePavilion = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

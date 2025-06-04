@@ -32,9 +32,9 @@ const SubtractSelectionOne = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const LevelSixTitle = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

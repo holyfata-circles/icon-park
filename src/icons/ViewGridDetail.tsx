@@ -32,9 +32,9 @@ const ViewGridDetail = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

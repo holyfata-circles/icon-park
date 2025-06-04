@@ -32,9 +32,9 @@ const SymbolDoubleX = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

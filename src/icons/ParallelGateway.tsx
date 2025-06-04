@@ -32,9 +32,9 @@ const ParallelGateway = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

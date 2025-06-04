@@ -32,9 +32,9 @@ const NewspaperFolding = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const UsbMemoryStick = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

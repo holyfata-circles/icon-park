@@ -32,9 +32,9 @@ const FigmaFlattenSelection = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

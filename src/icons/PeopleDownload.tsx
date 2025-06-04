@@ -32,9 +32,9 @@ const PeopleDownload = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

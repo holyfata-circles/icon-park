@@ -32,9 +32,9 @@ const FolderWithdrawalOne = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

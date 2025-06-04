@@ -32,9 +32,9 @@ const PearlOfTheOrient = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const CollectionFiles = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

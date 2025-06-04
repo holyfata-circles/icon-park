@@ -32,9 +32,9 @@ const ExpressDelivery = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

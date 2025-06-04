@@ -32,9 +32,9 @@ const ClothesDiapers = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

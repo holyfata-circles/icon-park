@@ -32,9 +32,9 @@ const SwimmingPool = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

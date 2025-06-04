@@ -32,9 +32,9 @@ const FiveEllipses = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const BrowserChrome = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

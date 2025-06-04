@@ -32,9 +32,9 @@ const HandwashingFluid = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

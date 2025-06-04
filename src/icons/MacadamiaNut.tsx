@@ -32,9 +32,9 @@ const MacadamiaNut = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

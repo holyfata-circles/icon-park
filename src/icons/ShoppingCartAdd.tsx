@@ -32,9 +32,9 @@ const ShoppingCartAdd = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const DatabaseAlert = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

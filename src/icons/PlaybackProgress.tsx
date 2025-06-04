@@ -32,9 +32,9 @@ const PlaybackProgress = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

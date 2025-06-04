@@ -32,9 +32,9 @@ const RoundCaliper = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

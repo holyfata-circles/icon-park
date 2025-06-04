@@ -32,9 +32,9 @@ const EngineeringVehicle = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

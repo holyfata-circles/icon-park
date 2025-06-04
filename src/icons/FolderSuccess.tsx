@@ -32,9 +32,9 @@ const FolderSuccess = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

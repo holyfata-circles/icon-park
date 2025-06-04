@@ -32,9 +32,9 @@ const ErrorPrompt = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const AntiCorrosion = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

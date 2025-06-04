@@ -32,9 +32,9 @@ const PhoneTelephone = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

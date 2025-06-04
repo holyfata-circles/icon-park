@@ -32,9 +32,9 @@ const ElectronicDoorLock = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

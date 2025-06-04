@@ -32,9 +32,9 @@ const SwitchNintendo = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

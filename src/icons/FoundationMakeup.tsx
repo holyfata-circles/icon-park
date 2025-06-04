@@ -32,9 +32,9 @@ const FoundationMakeup = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const FlipHorizontally = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

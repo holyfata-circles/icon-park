@@ -32,9 +32,9 @@ const CheckCorrect = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

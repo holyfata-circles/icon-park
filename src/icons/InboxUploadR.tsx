@@ -32,9 +32,9 @@ const InboxUploadR = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

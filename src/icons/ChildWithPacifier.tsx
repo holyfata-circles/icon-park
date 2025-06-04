@@ -32,9 +32,9 @@ const ChildWithPacifier = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const LinkCloudSucess = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const MultiPictureCarousel = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

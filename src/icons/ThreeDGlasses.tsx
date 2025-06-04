@@ -32,9 +32,9 @@ const ThreeDGlasses = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

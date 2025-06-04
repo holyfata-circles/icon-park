@@ -32,9 +32,9 @@ const EngineeringBrand = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

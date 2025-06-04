@@ -32,9 +32,9 @@ const CosmeticBrush = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

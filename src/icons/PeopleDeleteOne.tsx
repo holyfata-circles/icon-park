@@ -32,9 +32,9 @@ const PeopleDeleteOne = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

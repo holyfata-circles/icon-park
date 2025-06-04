@@ -32,9 +32,9 @@ const StopwatchStart = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

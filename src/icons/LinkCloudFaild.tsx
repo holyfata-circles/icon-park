@@ -32,9 +32,9 @@ const LinkCloudFaild = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

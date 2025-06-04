@@ -32,9 +32,9 @@ const AlignTextMiddleOne = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

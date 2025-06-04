@@ -32,9 +32,9 @@ const HotAirBalloon = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

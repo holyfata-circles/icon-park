@@ -32,9 +32,9 @@ const AnchorSqure = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

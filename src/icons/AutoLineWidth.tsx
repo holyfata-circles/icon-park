@@ -32,9 +32,9 @@ const AutoLineWidth = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

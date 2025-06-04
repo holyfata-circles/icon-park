@@ -32,9 +32,9 @@ const GeometricFlowers = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

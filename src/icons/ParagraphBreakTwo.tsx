@@ -32,9 +32,9 @@ const ParagraphBreakTwo = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

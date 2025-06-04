@@ -32,9 +32,9 @@ const ExcludeSelection = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

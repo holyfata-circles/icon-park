@@ -32,9 +32,9 @@ const GraphicStitchingFour = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

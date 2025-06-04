@@ -32,9 +32,9 @@ const SurveillanceCamerasTwo = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

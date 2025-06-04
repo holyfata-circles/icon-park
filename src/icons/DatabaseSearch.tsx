@@ -32,9 +32,9 @@ const DatabaseSearch = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

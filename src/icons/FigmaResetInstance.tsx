@@ -32,9 +32,9 @@ const FigmaResetInstance = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

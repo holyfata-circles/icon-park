@@ -32,9 +32,9 @@ const QuadrangularPyramid = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

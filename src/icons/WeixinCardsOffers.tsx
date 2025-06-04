@@ -32,9 +32,9 @@ const WeixinCardsOffers = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

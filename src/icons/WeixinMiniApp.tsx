@@ -32,9 +32,9 @@ const WeixinMiniApp = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const TicketsChecked = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

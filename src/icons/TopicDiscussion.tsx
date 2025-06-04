@@ -32,9 +32,9 @@ const TopicDiscussion = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const FactoryBuilding = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

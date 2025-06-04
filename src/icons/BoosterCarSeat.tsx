@@ -32,9 +32,9 @@ const BoosterCarSeat = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

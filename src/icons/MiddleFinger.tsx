@@ -32,9 +32,9 @@ const MiddleFinger = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

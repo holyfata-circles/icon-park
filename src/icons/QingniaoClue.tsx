@@ -32,9 +32,9 @@ const QingniaoClue = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

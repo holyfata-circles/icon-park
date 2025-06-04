@@ -32,9 +32,9 @@ const AlphabeticalSorting = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

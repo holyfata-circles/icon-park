@@ -32,9 +32,9 @@ const ViciaFaba = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const UserToUserTransmission = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

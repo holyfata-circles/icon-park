@@ -32,9 +32,9 @@ const PlayVolleyball = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

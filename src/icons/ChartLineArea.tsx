@@ -32,9 +32,9 @@ const ChartLineArea = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

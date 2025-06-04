@@ -32,9 +32,9 @@ const TextWrapTruncation = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const ChoppingBoard = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

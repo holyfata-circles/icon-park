@@ -32,9 +32,9 @@ const DatabaseTime = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

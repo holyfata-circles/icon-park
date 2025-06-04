@@ -32,9 +32,9 @@ const LeftAndRightBranch = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

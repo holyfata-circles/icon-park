@@ -32,9 +32,9 @@ const DirectionAdjustmentTwo = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const HighSpeedRail = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

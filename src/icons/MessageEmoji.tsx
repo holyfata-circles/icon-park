@@ -32,9 +32,9 @@ const MessageEmoji = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const FireExtinguisher = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

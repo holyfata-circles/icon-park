@@ -32,9 +32,9 @@ const DatabaseEnter = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

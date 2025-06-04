@@ -32,9 +32,9 @@ const CategoryManagement = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const ChildrenPyramid = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 

@@ -32,9 +32,9 @@ const CollapseTextInput = () => {
     }
 
     return (
-        <div>
+        <>
             {renderNode(astJson)}
-        </div>
+        </>
     );
 }
 
