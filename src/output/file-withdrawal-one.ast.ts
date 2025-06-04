@@ -1,0 +1,52 @@
+export default {
+  "type": "svg",
+  "attributes": {
+    "width": "24",
+    "height": "24",
+    "viewBox": "0 0 48 48",
+    "fill": "none",
+    "xmlns": "http://www.w3.org/2000/svg"
+  },
+  "children": [
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M40 23V14L31 4H10C8.89543 4 8 4.89543 8 6V42C8 43.1046 8.89543 44 10 44H22",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M31 33L26 38L31 43",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M26 38H42V30",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M30 4V14H40",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    }
+  ]
+};

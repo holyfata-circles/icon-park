@@ -1,0 +1,63 @@
+export default {
+  "type": "svg",
+  "attributes": {
+    "width": "24",
+    "height": "24",
+    "viewBox": "0 0 48 48",
+    "fill": "none",
+    "xmlns": "http://www.w3.org/2000/svg"
+  },
+  "children": [
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M12 36V44H44V12H36V20H28V28H20V36H12Z",
+        "fill": "#2F88FF",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M18 13L27 4",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M21 4H27V10",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M10 27H4V21",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M13 18L4 27",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    }
+  ]
+};

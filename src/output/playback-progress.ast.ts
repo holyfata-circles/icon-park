@@ -1,0 +1,67 @@
+export default {
+  "type": "svg",
+  "attributes": {
+    "width": "24",
+    "height": "24",
+    "viewBox": "0 0 48 48",
+    "fill": "none",
+    "xmlns": "http://www.w3.org/2000/svg"
+  },
+  "children": [
+    {
+      "type": "rect",
+      "attributes": {
+        "x": "4",
+        "y": "5",
+        "width": "40",
+        "height": "26",
+        "fill": "#2F88FF",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M22 14L28 18L22 22V14Z",
+        "fill": "#43CCF8",
+        "stroke": "#FFF",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M11 40H6",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M17 40H42",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M17 40C17 41.6569 15.6569 43 14 43C12.3431 43 11 41.6569 11 40C11 38.3431 12.3431 37 14 37C15.6569 37 17 38.3431 17 40Z",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    }
+  ]
+};

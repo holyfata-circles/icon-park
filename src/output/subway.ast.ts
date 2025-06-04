@@ -1,0 +1,76 @@
+export default {
+  "type": "svg",
+  "attributes": {
+    "width": "24",
+    "height": "24",
+    "viewBox": "0 0 48 48",
+    "fill": "none",
+    "xmlns": "http://www.w3.org/2000/svg"
+  },
+  "children": [
+    {
+      "type": "rect",
+      "attributes": {
+        "x": "8",
+        "y": "6",
+        "width": "32",
+        "height": "26",
+        "rx": "2",
+        "stroke": "#333",
+        "stroke-width": "4"
+      }
+    },
+    {
+      "type": "circle",
+      "attributes": {
+        "cx": "14",
+        "cy": "27",
+        "r": "2",
+        "fill": "#333"
+      }
+    },
+    {
+      "type": "circle",
+      "attributes": {
+        "cx": "34",
+        "cy": "27",
+        "r": "2",
+        "fill": "#333"
+      }
+    },
+    {
+      "type": "rect",
+      "attributes": {
+        "x": "14",
+        "y": "12",
+        "width": "20",
+        "height": "10",
+        "fill": "#2F88FF",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M32 32L40 41",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M17 32L8 41",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    }
+  ]
+};

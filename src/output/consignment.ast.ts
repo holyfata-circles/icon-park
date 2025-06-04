@@ -1,0 +1,165 @@
+export default {
+  "type": "svg",
+  "attributes": {
+    "width": "24",
+    "height": "24",
+    "viewBox": "0 0 48 48",
+    "fill": "none",
+    "xmlns": "http://www.w3.org/2000/svg"
+  },
+  "children": [
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M8 14C8 12.8954 8.89543 12 10 12H38C39.1046 12 40 12.8954 40 14V30C40 31.1046 39.1046 32 38 32H10C8.89543 32 8 31.1046 8 30V14Z",
+        "fill": "#2F88FF",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M16 12V32",
+        "stroke": "#FFF",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M32 12V32",
+        "stroke": "#FFF",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M28 12L36 12",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M12 12L20 12",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M12 32L20 32",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M28 32L36 32",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M4 38L44 38",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M18 38V40",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M12 38V40",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M6 38V40",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M24 38V40",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M30 38V40",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M36 38V40",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M42 38V40",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M30 12V6H18V12",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    }
+  ]
+};

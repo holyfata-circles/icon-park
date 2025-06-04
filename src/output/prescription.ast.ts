@@ -1,0 +1,62 @@
+export default {
+  "type": "svg",
+  "attributes": {
+    "width": "24",
+    "height": "24",
+    "viewBox": "0 0 48 48",
+    "fill": "none",
+    "xmlns": "http://www.w3.org/2000/svg"
+  },
+  "children": [
+    {
+      "type": "path",
+      "attributes": {
+        "fill-rule": "evenodd",
+        "clip-rule": "evenodd",
+        "d": "M8 8C8 6.89543 8.89543 6 10 6H27V18H40V40C40 41.1046 39.1046 42 38 42H10C8.89543 42 8 41.1046 8 40V8Z",
+        "fill": "#2F88FF",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M27 6L40 18",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M27.0244 6V18.0818H39.9996",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M14 30H26",
+        "stroke": "#FFF",
+        "stroke-width": "4",
+        "stroke-linecap": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M20 24V36",
+        "stroke": "#FFF",
+        "stroke-width": "4",
+        "stroke-linecap": "round"
+      }
+    }
+  ]
+};

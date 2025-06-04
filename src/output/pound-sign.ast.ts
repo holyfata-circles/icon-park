@@ -1,0 +1,48 @@
+export default {
+  "type": "svg",
+  "attributes": {
+    "width": "24",
+    "height": "24",
+    "viewBox": "0 0 48 48",
+    "fill": "none",
+    "xmlns": "http://www.w3.org/2000/svg"
+  },
+  "children": [
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M36 17L12 17",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M36 31L12 31",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M17 36L17 12",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M31 36L31 12",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round"
+      }
+    }
+  ]
+};

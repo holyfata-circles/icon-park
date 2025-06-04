@@ -1,0 +1,80 @@
+export default {
+  "type": "svg",
+  "attributes": {
+    "width": "24",
+    "height": "24",
+    "viewBox": "0 0 48 48",
+    "fill": "none",
+    "xmlns": "http://www.w3.org/2000/svg"
+  },
+  "children": [
+    {
+      "type": "rect",
+      "attributes": {
+        "x": "10",
+        "y": "4",
+        "width": "28",
+        "height": "40",
+        "rx": "2",
+        "stroke": "#333",
+        "stroke-width": "4"
+      }
+    },
+    {
+      "type": "rect",
+      "attributes": {
+        "x": "16",
+        "y": "12",
+        "width": "16",
+        "height": "10",
+        "fill": "#2F88FF",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M16 32L24 32",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M20 36V28",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "rect",
+      "attributes": {
+        "x": "27",
+        "y": "33",
+        "width": "4",
+        "height": "4",
+        "rx": "2",
+        "fill": "#333"
+      }
+    },
+    {
+      "type": "rect",
+      "attributes": {
+        "x": "30",
+        "y": "26",
+        "width": "4",
+        "height": "4",
+        "rx": "2",
+        "fill": "#333"
+      }
+    }
+  ]
+};

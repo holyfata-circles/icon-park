@@ -1,0 +1,88 @@
+export default {
+  "type": "svg",
+  "attributes": {
+    "width": "24",
+    "height": "24",
+    "viewBox": "0 0 48 48",
+    "fill": "none",
+    "xmlns": "http://www.w3.org/2000/svg"
+  },
+  "children": [
+    {
+      "type": "circle",
+      "attributes": {
+        "cx": "24",
+        "cy": "33",
+        "r": "6",
+        "fill": "#2F88FF",
+        "stroke": "#333",
+        "stroke-width": "4"
+      }
+    },
+    {
+      "type": "circle",
+      "attributes": {
+        "cx": "24",
+        "cy": "13",
+        "r": "3",
+        "fill": "#2F88FF",
+        "stroke": "#333",
+        "stroke-width": "4"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M24 40V44",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M22 16L20 28",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M26 16L28 28",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M19 37L16 44",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M29 37L32 44",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M24 4V10",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round"
+      }
+    }
+  ]
+};

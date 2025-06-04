@@ -1,0 +1,52 @@
+export default {
+  "type": "svg",
+  "attributes": {
+    "width": "24",
+    "height": "24",
+    "viewBox": "0 0 48 48",
+    "fill": "none",
+    "xmlns": "http://www.w3.org/2000/svg"
+  },
+  "children": [
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M39 6H9C7.34315 6 6 7.34315 6 9V39C6 40.6569 7.34315 42 9 42H39C40.6569 42 42 40.6569 42 39V9C42 7.34315 40.6569 6 39 6Z",
+        "fill": "#2F88FF",
+        "stroke": "#333",
+        "stroke-width": "4"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M27 12V16C29.6667 16.8333 36 19 36 26C36 33 30 36 24 36C18 36 12 33 12 26C12 18 21.6667 13.1667 27 12Z",
+        "fill": "#43CCF8",
+        "stroke": "#FFF",
+        "stroke-width": "4",
+        "stroke-linecap": "round",
+        "stroke-linejoin": "round"
+      }
+    },
+    {
+      "type": "ellipse",
+      "attributes": {
+        "cx": "29",
+        "cy": "26",
+        "rx": "3",
+        "ry": "4",
+        "fill": "#FFF"
+      }
+    },
+    {
+      "type": "ellipse",
+      "attributes": {
+        "cx": "19",
+        "cy": "26",
+        "rx": "3",
+        "ry": "4",
+        "fill": "#FFF"
+      }
+    }
+  ]
+};
