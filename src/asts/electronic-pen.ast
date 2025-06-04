@@ -1,0 +1,88 @@
+{
+  "type": "svg",
+  "attributes": {
+    "width": "24",
+    "height": "24",
+    "viewBox": "0 0 48 48",
+    "fill": "none",
+    "xmlns": "http://www.w3.org/2000/svg"
+  },
+  "children": [
+    {
+      "type": "g",
+      "attributes": {
+        "clip-path": "url(#icon-134b48ed07eac28b)"
+      },
+      "children": [
+        {
+          "type": "rect",
+          "attributes": {
+            "x": "35.1926",
+            "y": "5.32227",
+            "width": "12",
+            "height": "38",
+            "rx": "6",
+            "transform": "rotate(45 35.1926 5.32227)",
+            "fill": "#2F88FF",
+            "stroke": "#333",
+            "stroke-width": "4"
+          }
+        },
+        {
+          "type": "path",
+          "attributes": {
+            "d": "M18 23L26 31",
+            "stroke": "#333",
+            "stroke-width": "4",
+            "stroke-linecap": "round",
+            "stroke-linejoin": "round"
+          }
+        },
+        {
+          "type": "path",
+          "attributes": {
+            "d": "M6 43L12 37",
+            "stroke": "#333",
+            "stroke-width": "4",
+            "stroke-linecap": "round",
+            "stroke-linejoin": "round"
+          }
+        },
+        {
+          "type": "rect",
+          "attributes": {
+            "x": "33.2681",
+            "y": "12.3396",
+            "width": "4",
+            "height": "4",
+            "rx": "2",
+            "transform": "rotate(30 33.2681 12.3396)",
+            "fill": "#FFF"
+          }
+        }
+      ]
+    },
+    {
+      "type": "defs",
+      "attributes": {},
+      "children": [
+        {
+          "type": "clippath",
+          "attributes": {
+            "id": "icon-134b48ed07eac28b"
+          },
+          "children": [
+            {
+              "type": "rect",
+              "attributes": {
+                "width": "48",
+                "height": "48",
+                "fill": "#FFF"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
