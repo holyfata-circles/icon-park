@@ -3,6 +3,7 @@ import { defineConfig } from '@rslib/core';
 
 export default defineConfig({
   source: {
+    assetsInclude: /\.ast$/,
     entry: {
       index: ['./src/**'],
     },
