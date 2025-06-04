@@ -1,9 +1,21 @@
-import React from 'react';
-import ACane from './asts/a-cane.ast?raw';
+import React, { useEffect, useState } from 'react';
 import { SVGNode } from './libs/toAST';
 
-const Icon = () => {
-    const astJson = JSON.parse(ACane);
+const Icon: React.FC<{ name: string }> = ({ name }) => {
+    const [astJson, setAstJson] = useState<SVGNode | null>(null);
+
+    useEffect(() => {
+        const loadAST = async () => {
+            try {
+                const module = await import(`./asts/${name}.ast?raw`);
+                setAstJson(JSON.parse(module.default));
+            } catch (error) {
+                console.error(`Failed to load AST for icon: ${name}`, error);
+            }
+        };
+
+        loadAST();
+    }, [name]);
 
     const renderNode = (node: SVGNode): React.ReactNode => {
         const { type, attributes, children } = node;
@@ -23,6 +35,10 @@ const Icon = () => {
 
         return React.createElement(type, props);
     };
+
+    if (!astJson) {
+        return null;
+    }
 
     return (
         <div>

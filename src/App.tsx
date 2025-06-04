@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div>
-        <Icon />
+        <Icon name="abdominal" />
       </div>
     </>
   )
