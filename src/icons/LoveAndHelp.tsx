@@ -1,5 +1,5 @@
 import React from 'react';
-import dataJSON from '@/output/love-and-help.ast.json';
+import dataJSON from '@/output/love-and-help.ast';
 import { SVGNode, SVGRoot } from '@/scripts/translate';
 
 const LoveAndHelp = () => {

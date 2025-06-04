@@ -1,5 +1,5 @@
 import React from 'react';
-import dataJSON from '@/output/eiffel-tower.ast.json';
+import dataJSON from '@/output/eiffel-tower.ast';
 import { SVGNode, SVGRoot } from '@/scripts/translate';
 
 const EiffelTower = () => {

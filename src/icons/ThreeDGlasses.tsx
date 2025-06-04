@@ -1,5 +1,5 @@
 import React from 'react';
-import dataJSON from '@/output/three-d-glasses.ast.json';
+import dataJSON from '@/output/three-d-glasses.ast';
 import { SVGNode, SVGRoot } from '@/scripts/translate';
 
 const ThreeDGlasses = () => {

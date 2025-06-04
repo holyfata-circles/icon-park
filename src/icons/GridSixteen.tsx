@@ -1,5 +1,5 @@
 import React from 'react';
-import dataJSON from '@/output/grid-sixteen.ast.json';
+import dataJSON from '@/output/grid-sixteen.ast';
 import { SVGNode, SVGRoot } from '@/scripts/translate';
 
 const GridSixteen = () => {

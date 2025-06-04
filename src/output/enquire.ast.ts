@@ -1,4 +1,4 @@
-{
+export default {
   "type": "svg",
   "attributes": {
     "width": "24",
@@ -49,4 +49,4 @@
       }
     }
   ]
-}
+};

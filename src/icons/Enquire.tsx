@@ -1,5 +1,5 @@
 import React from 'react';
-import dataJSON from '@/output/enquire.ast.json';
+import dataJSON from '@/output/enquire.ast';
 import { SVGNode, SVGRoot } from '@/scripts/translate';
 
 const Enquire = () => {

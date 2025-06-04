@@ -73,8 +73,9 @@ function main() {
     console.log(`${idx + 1}/${files.length} ${file}`);
     // 生成输出文件名
     const astName = file.split('_')[1]?.replace('svg', 'ast') || file.replace('.svg', '.ast');
-    const outputPath = path.join(outputDir, `${astName}.json`);
-    writeFileSync(outputPath, JSON.stringify(ast, null, 2));
+    const outputPath = path.join(outputDir, `${astName}.ts`);
+    const exportAst = `export default ${JSON.stringify(ast, null, 2)};`;
+    writeFileSync(outputPath, exportAst);
   });
 }
 

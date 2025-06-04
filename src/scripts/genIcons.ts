@@ -30,7 +30,7 @@ const main = () => {
         console.log(`${idx + 1}/${files.length} 生成组件: ${comName}`);
 
         const template = readFileSync(path.join(__dirname, '../templates/Icon.tsx.ejs'), 'utf8');
-        const content = ejs.render(template, { name: file, comName });
+        const content = ejs.render(template, { name: file.replace('.ts', ''), comName });
 
         writeFileSync(path.join(iconsDir, `${comName}.tsx`), content);
     });

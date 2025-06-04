@@ -1,4 +1,4 @@
-{
+export default {
   "type": "svg",
   "attributes": {
     "width": "24",
@@ -9,9 +9,13 @@
   },
   "children": [
     {
-      "type": "path",
+      "type": "rect",
       "attributes": {
-        "d": "M21 8C21 19 17.5 33 11 44",
+        "x": "4",
+        "y": "4",
+        "width": "40",
+        "height": "40",
+        "rx": "2",
         "stroke": "#333",
         "stroke-width": "4",
         "stroke-linecap": "round",
@@ -21,7 +25,34 @@
     {
       "type": "path",
       "attributes": {
-        "d": "M27 8C27 19 30.5 33 37 44",
+        "d": "M14 4V44",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M24 4V44",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M34 4V44",
+        "stroke": "#333",
+        "stroke-width": "4",
+        "stroke-linecap": "round"
+      }
+    },
+    {
+      "type": "path",
+      "attributes": {
+        "d": "M4 14H44",
         "stroke": "#333",
         "stroke-width": "4",
         "stroke-linecap": "round",
@@ -31,7 +62,7 @@
     {
       "type": "path",
       "attributes": {
-        "d": "M4 44H44",
+        "d": "M4 34H44",
         "stroke": "#333",
         "stroke-width": "4",
         "stroke-linecap": "round",
@@ -41,43 +72,7 @@
     {
       "type": "path",
       "attributes": {
-        "d": "M14 30L34 30",
-        "stroke": "#333",
-        "stroke-width": "4",
-        "stroke-linecap": "round"
-      }
-    },
-    {
-      "type": "path",
-      "attributes": {
-        "d": "M17 21L31 21",
-        "stroke": "#333",
-        "stroke-width": "4",
-        "stroke-linecap": "round"
-      }
-    },
-    {
-      "type": "path",
-      "attributes": {
-        "d": "M20 8L28 8",
-        "stroke": "#333",
-        "stroke-width": "4",
-        "stroke-linecap": "round"
-      }
-    },
-    {
-      "type": "path",
-      "attributes": {
-        "d": "M24 4V8",
-        "stroke": "#333",
-        "stroke-width": "4",
-        "stroke-linecap": "round"
-      }
-    },
-    {
-      "type": "path",
-      "attributes": {
-        "d": "M18 44C18 44 18.8125 41.1875 20 40C21 39 22 38 24 38C26 38 27 39 28 40C29.3438 41.3437 30 44 30 44",
+        "d": "M4 24H44",
         "stroke": "#333",
         "stroke-width": "4",
         "stroke-linecap": "round",
@@ -85,4 +80,4 @@
       }
     }
   ]
-}
+};
