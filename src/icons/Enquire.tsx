@@ -1,6 +1,6 @@
 import React from 'react';
-import dataJSON from '../../output/enquire.ast.json';
-import { SVGNode, SVGRoot } from '../build';
+import dataJSON from '@/output/enquire.ast.json';
+import { SVGNode, SVGRoot } from '@/scripts/translate';
 
 const Enquire = () => {
 

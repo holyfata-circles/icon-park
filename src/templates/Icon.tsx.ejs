@@ -1,8 +1,8 @@
 import React from 'react';
-import dataJSON from '@/output/eiffel-tower.ast.json';
+import dataJSON from '@/output/<%= name %>';
 import { SVGNode, SVGRoot } from '@/scripts/translate';
 
-const EiffelTower = () => {
+const <%= comName %> = () => {
 
     const astJson = dataJSON as unknown as SVGRoot;
 
@@ -36,4 +36,4 @@ const EiffelTower = () => {
     );
 }
 
-export default EiffelTower;
+export default <%= comName %>;
