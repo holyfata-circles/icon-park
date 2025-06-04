@@ -48,7 +48,7 @@ function svgToAST(svgString: string): SVGRoot {
 
 const main = () => {
     const downloadDir = path.join(__dirname, '..', 'download');
-    const outputDir = path.join(__dirname, '..', 'output');
+    const outputDir = path.join(__dirname, 'output');
     const files = readdirSync(downloadDir);
     const total = files.length;
     let count = 0;

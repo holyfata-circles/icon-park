@@ -1,7 +1,11 @@
 {
-  "name": "@golyfata/icon-park",
+  "name": "@holyfata/icon-park",
   "version": "0.0.1-alpha2",
   "type": "module",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
